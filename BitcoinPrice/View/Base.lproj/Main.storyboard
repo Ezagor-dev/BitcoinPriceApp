@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="cNL-Os-8eu">
             <objects>
-                <viewController id="dRS-fV-iDi" customClass="ViewController" customModule="ByteCoin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dRS-fV-iDi" customClass="ViewController" customModule="BitcoinPrice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bHr-LP-V0M">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,6 +96,11 @@
                             <constraint firstItem="HhP-G8-n0l" firstAttribute="trailing" secondItem="ISd-o9-fDe" secondAttribute="trailing" id="tkQ-Bv-bw6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bitcoinLabel" destination="M2h-2P-Sia" id="j7J-yf-WSi"/>
+                        <outlet property="currencyLabel" destination="BQu-dY-kdp" id="w8w-ss-Pwx"/>
+                        <outlet property="currencyPicker" destination="HhP-G8-n0l" id="9Rn-nc-qDA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8G9-V5-3vl" sceneMemberID="firstResponder"/>
             </objects>
